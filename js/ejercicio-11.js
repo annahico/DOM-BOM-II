@@ -20,6 +20,12 @@ tareaInput.addEventListener("keydown", (event) => {
     }
 });
 
+lista.addEventListener("dblclick", (event) => { //eliminar con doble click elemento lista
+    if (event.target.tagName === "LI") {
+        event.target.remove();
+    }
+});
+
 
 
 
