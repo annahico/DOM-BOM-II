@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 12</title>
     <link href="/css/ejercicio-12.css" rel="stylesheet" />
 </head>
-<body>
-    <input type="text" id="tareaInput" placeholder="Nueva Tarea" />
-    <button id="agregarTarea">Agregar Tarea</button>
-    <ul id="lista"></ul>
 
-    <script src="/js/ejercicio-121.js"></script>
+<body>
+    <form id="formulario">
+        <input type="text" id="nombre" placeholder="Nombre">
+        <button id="agregar-campo">Agregar Campo</button>
+        <button type="submit">Enviar</button>
+    </form>
+    <div id="campos"></div>
+
+    <script src="/js/ejercicio-12.js"></script>
 </body>
+
 </html>
